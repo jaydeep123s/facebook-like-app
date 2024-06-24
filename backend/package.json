@@ -1,0 +1,30 @@
+{
+  "name": "facebook-like-app",
+  "version": "1.0.0",
+  "description": "A Facebook-like application backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js", // If using nodemon for development
+    "test": "jest"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "mongoose",
+    "rest-api"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.3",
+    "mongoose": "^6.1.11"
+  },
+  "devDependencies": {
+    "jest": "^27.0.4",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.0"
+  }
+}
